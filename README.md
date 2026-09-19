@@ -9,7 +9,7 @@ student name:Б.Баяргүн
 
 |  VU | p90 latency | p95 latency | Throughput | Error rate |
 | --: | ----------: | ----------: | ---------: | ---------: |
-|   5 |    307.4 ms |   308.14 ms |      7.3/s |      0.00% |
+|   5 |      295 ms |   308.02 ms |      7.2/s |      0.00% |
 |  30 |   227.97 ms |   228.98 ms |     45.4/s |      0.00% |
 | 100 |   228.18 ms |    230.9 ms |    151.2/s |      0.00% |
 
@@ -26,7 +26,7 @@ student name:Б.Баяргүн
 ## THRESHOLDS
 
     http_req_duration
-    ✓ 'p(95)<462.21' p(95)=235.65ms
+    ✓ 'p(95)<462.03' p(95)=230.03ms
 
     http_req_failed
     ✓ 'rate<0.01' rate=0.00%
